@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+			<!--Manual do !Time Out!-->
+<head>
+	<meta charset="utf-8">
+	<title>Manual</title>
+	<style type="text/css">  /*CSS*/
+		html {
+			scroll-behavior: smooth;
+		}
+
+		body {
+			background-color: #DFD2BF;
+			background-image: url("http://www.transparenttextures.com/patterns/mooning.png");
+			margin: 0;
+		}
+
+		a {
+			color: #000007;
+			text-decoration: none;
+		}
+
+		footer {
+			    /*CIMA  DIREITA  BAIXO  ESQUERDA*/
+			padding: 20px 0px 20px 0px;
+			background-color: black;
+			color: white;
+			font-family: "Courier";
+			text-align: center;
+			position: bottom fixed;
+			bottom: 0;
+			width: 100%;
+			margin: 0;
+		}
+
+		.Papel {
+			     /*CIMA  DIREITA  BAIXO  ESQUERDA*/
+			margin: 60px 300px 60px 360px;
+			padding: 30px;
+			background-color: white;
+			border: 4px black solid;
+			width: 51em;
+			height: 66em;
+		}
+
+		.Tabela {
+			font-size: 30px;
+			font-family: serif;
+			margin-left: 260px;
+		}
+
+		#TítuloPrincipal {
+			text-align: center;
+			font-size: 160px;
+		}
+
+		#Título {
+			text-align: center;
+			font-size: 60px;
+			font-family: impact;
+		}
+
+		#SubTitulo {
+			text-align: center;
+			font-size: 36px;
+		}
+
+		#Texto{
+			font-size: 26px;
+			text-align: center;
+			padding-top: 60px;
+		}
+
+		#Vermelha {
+			color: red;
+		}
+
+		#Azul {
+			color: blue;
+		}
+
+		#Verde {
+			color: green;
+		}
+
+		#Laranja {
+			color: orange;
+		}
+
+		#Rosa {
+			color: pink;
+		}
+
+		#Marrom {
+			color: brown;
+		}
+
+		#Prateada {
+			color: silver;
+		}
+
+		#Dourada {
+			color: gold;
+		}
+		#Botões8{
+			padding: 40px;
+			font-size: 28px;
+			background-color: red;
+			border: solid 5px;
+			margin-left: 110px;
+			margin-top: 40px;
+		}
+		#Botões7{
+			border: solid 3px black;
+			padding: 18px;
+			margin: 18px;
+			margin-left: 28px;
+		}
+		#Botões3{
+			border: solid 3px black;
+			padding: 30px;
+			margin-left: 45%;
+			margin-top: 300px;
+		}
+		#Parabens{
+			margin-left: 25px;
+			font-size: 200px;
+			font-style: bold;
+		}
+
+		/* Expessura */
+
+		::-webkit-scrollbar {
+			width: 13px;
+		}
+
+		/* Caminho */
+
+		::-webkit-scrollbar-track {
+			background: #DFD2BF;
+		}
+
+		/* Marcador */
+
+		::-webkit-scrollbar-thumb {
+			background: #b6ab9c;
+		}
+
+		/* Marcador no hover */
+
+		::-webkit-scrollbar-thumb:hover {
+			background: #887d6f;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="Papel">
+		<p id="TítuloPrincipal">!Time Out!</p>
+
+		<p id="Título">Sumário</p>
+
+		<div class="Tabela">
+			<ul>
+				<li>
+					<a href="#10">10° andar</a>
+					<br>
+				</li>
+				<li>
+					<a href="#9">9° andar</a>
+					<br>
+				</li>
+				<li>
+					<a href="#8">8° andar</a>
+					<br>
+				</li>
+				<li>
+					<a href="#7">7° andar</a>
+					<br>
+				</li>
+				<li>
+					<a href="#6">6° andar</a>
+					<br>
+				</li>
+				<li>
+					<a href="#5">5° andar</a>
+					<br>
+				</li>
+				<li>
+					<a href="#4">4° andar</a>
+					<br>
+				</li>
+				<li>
+					<a href="#3">3° andar</a>
+					<br>
+				</li>
+				<li>
+					<a href="#2">2° andar</a>
+					<br>
+				</li>
+				<li>
+					<a href="#1">1° andar</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="Papel" id="10">
+		<p id="Título">10° andar</p>  <!-- Como este é o primeiro dos desafios, deixamos este andar um pouco mais fácil, e progressivamente aumentamos a dificuldade
+										   Neste andar o jogador deve somente apertar o botão equivalente a sua cor no fundo da tela, além disso deixamos esta parte do manual muito intuitiva-->
+		<p id="SubTitulo">
+			Cor da Tela
+		</p>
+		<div id="Texto">
+			<p>Se a tela estiver
+				<label id="Vermelha">Vermelha</label> você deve descer a
+				<button>Escada</button> 1</p>
+			<p>Se a tela estiver
+				<label id="Azul">Azul</label> você deve descer a
+				<button>Escada</button> 2</p>
+			<p>Se a tela estiver
+				<label id="Verde">Verde</label> você deve descer a
+				<button>Escada</button> 3</p>
+			<p>Se a tela estiver
+				<label id="Laranja">Laranja</label> você deve descer a
+				<button>Escada</button> 4</p>
+			<p>Se a tela estiver
+				<label id="Rosa">Rosa</label> você deve descer a
+				<button>Escada</button> 5</p>
+			<p>Se a tela estiver
+				<label id="Marrom">Marrom</label> você deve descer a
+				<button>Escada</button> 6</p>
+			<p>Se a tela estiver
+				<label id="Prateada">Prateada</label> você deve descer a
+				<button>Escada</button> 7</p>
+			<p>Se a tela estiver
+				<label id="Dourada">Dourada</label> você deve descer a
+				<button>Escada</button> 8</p>
+		</div>
+	</div>
+
+	<div class="Papel" id="9">
+		<p id="Título">9° andar</p> <!-- O objetivo desse andar é que o jogador aperte os botões na ordem correta de acordo com a mensagem que foi enviada-->
+
+		<p id="SubTitulo">Ordem de Botões</p>
+
+		<div id="Texto">
+			<p>Se a mensagem disse 1, aperte os <button>botões</button> na ordem §, ¶, ¥, ©</p>
+
+			<p>Se a mensagem disse 2, aperte os <button>botões</button> na ordem ¶, §, ©, ¥</p>
+
+			<p>Se a mensagem disse 3, aperte os <button>botões</button> na ordem ¥, ©, ¶, §</p>
+
+			<p>Se a mensagem disse 4, aperte os <button>botões</button> na ordem ©, ¥, §, ¶</p>
+		</div>
+
+	</div>
+
+	<div class="Papel" id="8">
+		<p id="Título">8° andar</p>
+
+		<p id="SubTitulo">Senhas</p>
+		
+		<button onclick="Senha3()" id="Botões8"> Clique aqui!</button>
+		<button onclick="Senha4()" id="Botões8"> Clique aqui!</button>
+		<button onclick="Senha2()" id="Botões8"> Clique aqui!</button>
+		<button onclick="Senha1()" id="Botões8"> Clique aqui!</button>
+
+	</div>
+
+	<div class="Papel" id="7">
+		<p id="Título">7° andar</p>  <!-- O objetivo desse andar é literalmente que o jogador clique em botões aleatórios até que ele ache o botão com a resposta-->
+
+		<p id="SubTitulo">Caça</p>
+
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Achou()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+		<button onclick="Nada()" id="Botões7"> Clique aqui!</button>
+	</div>
+
+	<div class="Papel" id="6">
+		<p id="Título">6° andar</p> <!-- O objetivo deste andar é testar a paciencia do jogador, pois se ele clicar demais a barra irá carregar mais do que o necessário-->
+
+		<p id="SubTitulo">Progresso</p>
+
+		<div id="Texto">
+		<p>Se a mensagem disse 3, carregue a primeria progress bar</p>
+		<p>Se a mensagem disse 1, carregue a segunda progress bar</p>
+		<p>Se a mensagem disse 2, carregue a terceira progress bar</p>
+		</div>
+
+
+	</div>
+
+	<div class="Papel" id="5">
+		<p id="Título">5° andar</p> <!-- Neste andar o jogador deve contar corretamente a quantidade de checkboxes antes de clicar nas corretas-->
+
+		<p id="SubTitulo">Check Box</p>
+
+		<div id="Texto">
+		<p>Caso seja o padrão A, aperte as textboxes 7, 15 e 24</p>
+		<p>Caso seja o padrão B, aperte as textboxes 3, 8 e 19</p>
+		<p>Caso seja o padrão C, aperte as textboxes 12, 17 e 21 </p>
+
+		<p>*Consulte o final do manual para descobrir padrões</p>
+		<p>*Orinte o jogador a contar as checkboxes de cima para baixo da esquerda para direita</p>
+		</div>
+
+	</div>
+
+	<div class="Papel" id="4">
+		<p id="Título">4° andar</p> <!--Neste andar o jogador deve alterar os valores da track bar entre 1, 2 e 3 para formar a cor que corresponde a letra soreteada pelo programa -->
+		<p id="SubTitulo">Cores</p>
+		<div id="Texto">
+		<p>Caso a letra seja A, Coloque a cor Cinza claro (2 2 2)</p>
+		<p>Caso a letra seja B, Coloque a cor Azul (1 1 3)</p>
+		<p>Caso a letra seja C, Coloque a cor Azul turquesa (1 2 2)</p>
+		<p>Caso a letra seja D, Coloque a cor Verde (1 3 1)</p>
+		<p>Caso a letra seja E, Coloque a cor Ciano claro (1 3 3)</p>
+		<p>Caso a letra seja F, Coloque a cor Roxo (2 1 3)</p>
+		<p>Caso a letra seja G, Coloque a cor Ciano escuro (1 2 3)</p>
+		<p>Caso a letra seja H, Coloque a cor Verde lima (2 3 1)</p>
+		<p>Caso a letra seja I, Coloque a cor Azul céu (2 3 3)</p>
+		<p>Caso a letra seja J, Coloque a cor Rosa choque (3 1 2)</p>
+		<p>Caso a letra seja K, Coloque a cor Laranja (3 2 1)</p>
+		<p>Caso a letra seja L, Coloque a cor Rosa bebê (3 2 3)</p>
+		<p>Caso a letra seja M, Coloque a cor Vermelho (3 1 1)</p>
+		</div>		
+	</div>
+
+	<div class="Papel" id="3"> <!--Nese andar o jogador deve caçar um pequeno rato, mas para isso ele deve expandir a tela para chegar a lugares que não podia antes
+								   O objetivo deste andar é brincar com o usuário, quase como uma quebra da quarta parede-->
+		<p id="Título">3° andar</p>
+		<p id="SubTitulo">Você chegou no terceiro andar...</p>
+		<p id="SubTitulo">Mas um rato roubou sua chave</p>
+		<button onclick="Dica()" id="Botões3">Dica</button>
+	</div>
+
+	<div class="Papel" id="2"> <!--Este andar é um jogo da Memória, simples-->
+		<p id="Título">2° andar</p>
+		<p id="SubTitulo">Jogo da memória</p>
+		<p id="SubTitulo">Um jogo da memória, espere seu parceiro terminar...</p>
+	</div>
+
+	<div class="Papel" id="1"> <!-- Vitória! -->
+		<p id="Título">1° andar</p>
+		<p id="Parabens">Parabéns!</p>
+	</div>
+
+	<div class="Papel" id="Extra"> <!--O objetivo desta parte extra é simplesmente para aumentar o desafio dos andares-->
+		<p id="Título">Tipos de padrões</p>
+		<div id="Texto">
+		<p>substitua X na equação pelo valor fornecido pelo programa</p>
+				<p id="Título">X + 14 = Y</p>
+		<p>Caso Y resulte em um número maior que 20, o padrão é A</p>
+		<p>Caso Y resulte em um número maior que 0  e menor que 20, o padrão é B</p>
+		<p>Caso Y resulte em um número menor que 0, o padrão é C</p>
+		</div>
+	</div>
+
+	<footer> <!-- footer da página -->
+		<p>© 2019 Angelinho & Théo Corps</p>
+	</footer>
+
+	<script>                 
+					//Métodos JavaScript
+		function Senha1() {
+			alert("Primeira senha: 14");
+		}
+		function Senha2() {
+			alert("Segunda senha: 240");
+		}
+		function Senha3() {
+			alert("Terceira senha: 360");
+		}
+		function Senha4() {
+			alert("Quarta Senha: 1023");
+		}
+		function Nada() {
+			alert("Nada por aqui...");
+		}
+		function Achou() {
+			alert("Achou!");
+			alert("Aperte o botão Azul");
+		}
+		function Dica(){
+			alert("Tente pensar fora da caixa");
+		}
+	</script>
+
+</body>
+
+</html>
